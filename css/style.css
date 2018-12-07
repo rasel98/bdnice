@@ -1,74 +1,5 @@
 
 
-body{
-	font-family:arial;
-	font-size:14px;
-	color:#4444;
-}
-a{
-	text-decoration:none;
-	color:#000;
-}
-a:hover{
-	text-decoration:none;
-}
-h1,h2,h3,h4,h5,h6{
-	font-weight:normal;
-	margin-bottom:15px;
-}
-h1{
-	font-size:35px;
-	line-height:35px;
-}
-img{
-	border:none;
-	max-width:100%;
-	height:auto;
-}
-input[type-text], input[type-email], textarea{
-	border:1px solid #ddd;
-	padding:5px;
-}
-input[type-submit]{
-	border:none;
-	padding:5px 15px;
-	background:#444;
-	color:#fff;
-	cursor:pointer;
-}
-ul,li{
-	margin:15px;
-	margin-right:0;
-}
-.fix{
-	overflow:hidden;
-}
-.alignleft{
-	float:left;
-	margin-right:10px;
-}
-.alignleft{
-	float:right;
-	margin-left:10px;
-}
-.alignleft{
-	display:block;
-	margin:0 auto;
-}
-.float-left{
-	float:left;
-}
-.float-right{
-	float:right;
-}
-.colum{
-	transition:all 0.9s;
-	-moz-transition:all 0.9s;
-	-webkit-transition:all 0.9s;
-	-0-transition:all 0.9s;
-}
-
-
 html,body,div,ul,li,dl,dd,h1,h2,h3,h4,h5,h6,
 pre,form,p,blockquote,fieldset,input,hr{
 	margin:0;
@@ -689,9 +620,6 @@ h3 {
 	top: -20px;
 	position: relative;
 
-}
-.thumbnail img {
-    width: 0px;
 }
 
 .thumbnail {
