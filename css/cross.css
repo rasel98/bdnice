@@ -1,0 +1,164 @@
+
+* html .ie6 {property: value; }
+	
+.ie6 { _property: value;}
+
+*+html .ie7 {property: value; }
+
+*:first-child+html .ie7 { property: value; }
+
+	
+@media screen\9 {
+    .ie67 {
+        property: value;
+    }
+}
+.ie67 { *property: value; }
+.ie67 { #property: value; }
+
+	
+@media \0screen\,screen\9 {
+    .ie678 {
+        property: value;
+    }
+}
+	
+html>/**/body .ie8 { property: value; }
+
+@media \0screen {
+    .ie8 {
+        property: value;
+    }
+}
+1
+	
+.ie8 { property /*\**/: value\9 }
+
+@media screen\0 {
+    .ie8910 {
+        property: value;
+    }
+}
+
+@media screen and (min-width:0\0) and (min-resolution: .001dpcm) {
+    // IE9 CSS
+    .ie9{
+        property: value;
+    }
+}
+
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+    // IE9+ CSS
+    .ie9up {
+        property: value;
+    }
+}
+
+@media screen and (min-width:0\0) {
+    .ie910 {
+        property: value\9;
+    } /* backslash-9 removes ie11+ & old Safari 4 */
+}
+	
+_:-ms-lang(x), .ie10 { property: value\9; }
+_:-ms-lang(x), .ie10up { property: value; }
+1
+	
+_:-ms-fullscreen, :root .ie11up { property: value; }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .ie10up {
+        property:value;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    .selector {
+        property: value;
+    }
+}
+
+@-moz-document url-prefix() {
+    .ff {
+        color: red;
+    }
+}
+
+@-moz-document url-prefix() {
+    @supports (animation: calc(0s)) {
+        /* Stylo */
+        .ffStylo {
+            property: value;
+        }
+    }
+}
+@-moz-document url-prefix() {
+    @supports not (animation: calc(0s)) {
+        /* Gecko */
+        .ffGecko {
+            property: value;
+        }
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    property: value;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    .chrome {
+        property: value;
+    }
+}
+
+_::-webkit-full-page-media, _:future, :root .safari_only {
+    property: value;
+}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+        .safari6 {
+            color:#0000FF;
+            background-color:#CCCCCC;
+        }
+    }
+}
+
+	
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .safari10 {
+            color:#0000FF;
+            background-color:#CCCCCC;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
